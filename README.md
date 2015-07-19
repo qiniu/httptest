@@ -1,7 +1,7 @@
 七牛HTTP测试工具
 =============
 
-[![Qiniu Logo](http://assets.qiniu.com/qiniu-122x65.png)](http://www.qiniu.com/)
+[![Qiniu Logo](http://open.qiniudn.com/logo.png)](http://www.qiniu.com/)
 
 # 背景资料
 
