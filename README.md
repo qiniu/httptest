@@ -1,4 +1,4 @@
-qiniupkg.com/httptest.v1 - 七牛HTTP测试工具
+qiniupkg.com/httptest.v1
 =============
 
 [![Build Status](https://travis-ci.org/qiniu/httptest.v1.svg?branch=develop)](https://travis-ci.org/qiniu/httptest.v1) [![GoDoc](https://godoc.org/qiniupkg.com/httptest.v1?status.svg)](https://godoc.org/qiniupkg.com/httptest.v1)
