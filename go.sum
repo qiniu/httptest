@@ -1,0 +1,15 @@
+github.com/qiniu/dyn v0.0.0-20190906045710-c4ab5e0a4412 h1:g/TRXnoT0y1zElIkBvrbwudjyn8LgbDNgJWCQ6eOJA0=
+github.com/qiniu/dyn v0.0.0-20190906045710-c4ab5e0a4412/go.mod h1:zjv6PkMIiScGjPmV1wZHy8P3nMniAUY8o95L0xfpxHc=
+github.com/qiniu/dyn v1.0.1 h1:b0R3kpzy678Dy2PR+vkmATwiRcVGiiOV3id1vAHB+b8=
+github.com/qiniu/http v0.0.0-20190905152611-38a69a9cb396 h1:/b+vwwjEwXKPAaj4RysfOXoqLC6faQS8oDekWj2PyHw=
+github.com/qiniu/http v0.0.0-20190905152611-38a69a9cb396/go.mod h1:af4XXoWKEutQvBJV+29GduxmjTxeJBJDJFlhygtr0LE=
+github.com/qiniu/x v8.0.0+incompatible h1:5KRlM4br8QjRrvQq8iZpu8V86tyP2ociSqbSVvAGz7E=
+github.com/qiniu/x v8.0.0+incompatible/go.mod h1:KpRKWYG/GaidPQVpoQ2Cvuvtts3gYnoo2PftgdmAiU4=
+gopkg.in/mgo.v2 v2.0.0-20190816093944-a6b53ec6cb22 h1:VpOs+IwYnYBaFnrNAeB8UUWtL3vEUnzSCL1nVjPhqrw=
+gopkg.in/mgo.v2 v2.0.0-20190816093944-a6b53ec6cb22/go.mod h1:yeKp02qBN3iKW1OzL3MGk2IdtZzaj7SFntXj72NppTA=
+qiniupkg.com/dyn v1.0.1 h1:VdNWFW0PdiBlohC/ZH2EPuu4WoRmiNxM7msD3DV/o0c=
+qiniupkg.com/dyn v1.0.1/go.mod h1:6p+RCv+0tqvnjLZxAbhe4+lBteqqfBytYynNqI5p7sA=
+qiniupkg.com/http v0.0.0-20190905152611-38a69a9cb396 h1:h5ln4WX2CeXFU7gBEQM1LWd902yo2R4yy+gbZiErizs=
+qiniupkg.com/httptest.v1 v0.0.0-20150719151625-f01bcf9afe88 h1:5hGHFPmhIXRzOfHUqboTSopVBQoie7n4qtMoD4cZGv4=
+qiniupkg.com/httptest.v1 v0.0.0-20150721161941-2b2a6b8937b1 h1:nn+E6qWLkILnBMatPjDCoLJnmB+JXgCbF5bclSYW6WI=
+qiniupkg.com/x v8.0.0+incompatible h1:SbuenQ7F/TwR1CQ1YwU9PlIltg55UNtnVw1mtEwsPPU=
