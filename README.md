@@ -1,14 +1,14 @@
-qiniupkg.com/httptest.v1
+httptest
 =============
 
-[![Build Status](https://travis-ci.org/qiniu/httptest.v1.svg?branch=develop)](https://travis-ci.org/qiniu/httptest.v1) [![GoDoc](https://godoc.org/qiniupkg.com/httptest.v1?status.svg)](https://godoc.org/qiniupkg.com/httptest.v1)
+[![Build Status](https://travis-ci.org/qiniu/httptest.svg?branch=master)](https://travis-ci.org/qiniu/httptest) [![GoDoc](https://godoc.org/github.com/qinu/httptest?status.svg)](https://godoc.org/github.com/qinu/httptest)
 
 [![Qiniu Logo](http://open.qiniudn.com/logo.png)](http://www.qiniu.com/)
 
 # 下载
 
 ```
-go get -u qiniupkg.com/httptest.v1
+go get -u github.com/qinu/httptest
 ```
 
 # 概述
