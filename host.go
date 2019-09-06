@@ -35,7 +35,7 @@ func (p *hostsMgr) hostOf(url string) (host string, url2 string, ok bool) {
 		return
 	}
 
-	host = url[istart:istart+n]
+	host = url[istart : istart+n]
 	portal, ok := p.hostToPortals[host]
 	if ok {
 		url2 = url[:istart] + portal + url[istart+n:]
@@ -59,4 +59,3 @@ func (p *hostsMgr) SetHost(host string, portal string) {
 }
 
 // ---------------------------------------------------------------------------
-

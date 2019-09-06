@@ -50,9 +50,9 @@ func NewRequest(ctx *Context, method, url string) *Request {
 	ctx.DeleteVar("resp")
 
 	p := &Request{
-		ctx: ctx,
+		ctx:    ctx,
 		method: method,
-		url: url,
+		url:    url,
 		header: make(http.Header),
 	}
 	ctx.Log(" ====>", method, url)
@@ -145,9 +145,9 @@ func (p *Request) Ret(code int) (resp *Response) {
 	resp1, err := p.send()
 	resp = newResponse(p, resp1, err)
 	p.ctx.MatchVar("resp", map[string]interface{}{
-		"body": resp.BodyObj,
+		"body":   resp.BodyObj,
 		"header": resp.Header,
-		"code": float64(resp.StatusCode),
+		"code":   float64(resp.StatusCode),
 	})
 	return resp.matchCode(code)
 }
@@ -159,10 +159,10 @@ type TestingT interface {
 	Log(args ...interface{})
 }
 
-type NilTestingT struct {}
+type NilTestingT struct{}
 
 func (p NilTestingT) Fatal(args ...interface{}) {}
-func (p NilTestingT) Log(args ...interface{}) {}
+func (p NilTestingT) Log(args ...interface{})   {}
 
 // ---------------------------------------------------------------------------
 
@@ -180,10 +180,10 @@ func New(t TestingT) *Context {
 
 	auths := make(map[string]TransportComposer)
 	p := &Context{
-		TestingT: t,
-		auths: auths,
-		transport: http.DefaultTransport,
-		DefaultHeader: make(http.Header),
+		TestingT:           t,
+		auths:              auths,
+		transport:          http.DefaultTransport,
+		DefaultHeader:      make(http.Header),
 		MatchResponseError: matchRespError,
 	}
 	p.initHostsMgr()
@@ -219,4 +219,3 @@ func (p *Context) Requestf(method, format string, v ...interface{}) *Request {
 }
 
 // ---------------------------------------------------------------------------
-

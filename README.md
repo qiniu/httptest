@@ -1,7 +1,7 @@
 httptest
 =============
 
-[![Build Status](https://travis-ci.org/qiniu/httptest.svg?branch=master)](https://travis-ci.org/qiniu/httptest) [![GoDoc](https://godoc.org/github.com/qiniu/httptest?status.svg)](https://godoc.org/github.com/qiniu/httptest)
+[![Build Status](https://travis-ci.org/qiniu/httptest.svg?branch=master)](https://travis-ci.org/qiniu/httptest) [![GoDoc](https://godoc.org/github.com/qiniu/httptest?status.svg)](https://godoc.org/github.com/qiniu/httptest) [![Go Report Card](https://goreportcard.com/badge/github.com/qiniu/httptest)](https://goreportcard.com/report/github.com/qiniu/httptest)
 
 [![Qiniu Logo](http://open.qiniudn.com/logo.png)](http://www.qiniu.com/)
 
