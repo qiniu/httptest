@@ -1,6 +1,7 @@
 package httptest
 
 import (
+	"encoding/json"
 	"io"
 	"log"
 	"net/http"
@@ -8,7 +9,6 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/qiniu/http/httputil"
 	"github.com/qiniu/x/mockhttp"
 )
 
@@ -33,15 +33,43 @@ func (p *mockTestingT) Fatal(v ...interface{}) {
 
 // ---------------------------------------------------------------------------
 
+type M map[string]interface{}
+
+// Reply replies a http response.
+func Reply(w http.ResponseWriter, code int, data interface{}) {
+
+	msg, err := json.Marshal(data)
+	if err != nil {
+		Reply(w, 500, M{"error": err.Error()})
+		return
+	}
+
+	h := w.Header()
+	h.Set("Content-Length", strconv.Itoa(len(msg)))
+	h.Set("Content-Type", "application/json")
+	w.WriteHeader(code)
+	w.Write(msg)
+}
+
+// ReplyWith replies a http response.
+func ReplyWith(w http.ResponseWriter, code int, bodyType string, msg []byte) {
+
+	h := w.Header()
+	h.Set("Content-Length", strconv.Itoa(len(msg)))
+	h.Set("Content-Type", bodyType)
+	w.WriteHeader(code)
+	w.Write(msg)
+}
+
 func init() {
 
 	http.HandleFunc("/", func(w http.ResponseWriter, req *http.Request) {
-		httputil.ReplyWith(w, 200, "application/text", []byte(req.URL.Path))
+		ReplyWith(w, 200, "application/text", []byte(req.URL.Path))
 	})
 
 	http.HandleFunc("/form", func(w http.ResponseWriter, req *http.Request) {
 		req.ParseForm()
-		httputil.Reply(w, 200, req.Form)
+		Reply(w, 200, req.Form)
 	})
 
 	http.HandleFunc("/json", func(w http.ResponseWriter, req *http.Request) {
