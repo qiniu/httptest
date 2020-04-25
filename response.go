@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"io"
 	"io/ioutil"
+	"mime"
 	"net/http"
 	"reflect"
 	"strings"
@@ -88,7 +89,12 @@ func newResponse(req *Request, resp *http.Response, err error) (p *Response) {
 	}
 	p.BodyType = p.Header.Get("Content-Type")
 	if len(p.RawBody) > 0 {
-		switch p.BodyType {
+		bodyType, _, err := mime.ParseMediaType(p.BodyType)
+		if err != nil {
+			p.ctx.Fatal("unmarshal response body failed:", err)
+		}
+
+		switch bodyType {
 		case "application/json":
 			p.Err = json.Unmarshal(p.RawBody, &p.BodyObj)
 			if p.Err != nil {
