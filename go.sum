@@ -1,12 +1,6 @@
-github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
-github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
-github.com/qiniu/dyn v0.0.0-20190911135125-949eec9ecf4b h1:dNJE7PPiys6bUGw4sPiZvvVnq9qpYmm40JDlZiAXtTU=
-github.com/qiniu/dyn v0.0.0-20190911135125-949eec9ecf4b/go.mod h1:En9iw0jHEKh1kD6JehUZvNfbMx1Tz+NnMpnNqnKT1Bk=
-github.com/qiniu/x v0.0.0-20190911131702-ec64d9399366 h1:8Emxqif6tbKfAsgKiNBpVSlb5b8Vw6rOGnb6udD89WI=
-github.com/qiniu/x v0.0.0-20190911131702-ec64d9399366/go.mod h1:aU6kpH+y42VG99LnEu20KKbvXZY1x7znEJjuR4ErCy0=
-github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
-github.com/stretchr/testify v1.4.0/go.mod h1:j7eGeouHqKxXV5pUuKE4zz7dFj8WfuZ+81PSLYec5m4=
-gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
+github.com/qiniu/dyn v1.2.1 h1:esNFleqsU1eAPbmlcz1Mrf9CEGl6Sp5InPmlWXXRNJc=
+github.com/qiniu/dyn v1.2.1/go.mod h1:d8WAi20PjvSQOaR7tpyUHIruDvFr3nTC9Fxji2Wr3Ek=
+github.com/qiniu/x v1.10.1 h1:Pv5aPTb7eqSm2wzOpVCD6SDgaK1qr7eeYLzcnQtO+3A=
+github.com/qiniu/x v1.10.1/go.mod h1:BeQOcur1vCtXTTv1Fo4WtJypt4cEh4/kuVY6GOAPxLs=
 gopkg.in/mgo.v2 v2.0.0-20190816093944-a6b53ec6cb22 h1:VpOs+IwYnYBaFnrNAeB8UUWtL3vEUnzSCL1nVjPhqrw=
 gopkg.in/mgo.v2 v2.0.0-20190816093944-a6b53ec6cb22/go.mod h1:yeKp02qBN3iKW1OzL3MGk2IdtZzaj7SFntXj72NppTA=
-gopkg.in/yaml.v2 v2.2.2/go.mod h1:hI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=
