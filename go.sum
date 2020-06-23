@@ -1,6 +1,6 @@
-github.com/qiniu/dyn v1.2.1 h1:esNFleqsU1eAPbmlcz1Mrf9CEGl6Sp5InPmlWXXRNJc=
-github.com/qiniu/dyn v1.2.1/go.mod h1:d8WAi20PjvSQOaR7tpyUHIruDvFr3nTC9Fxji2Wr3Ek=
-github.com/qiniu/x v1.10.1 h1:Pv5aPTb7eqSm2wzOpVCD6SDgaK1qr7eeYLzcnQtO+3A=
-github.com/qiniu/x v1.10.1/go.mod h1:BeQOcur1vCtXTTv1Fo4WtJypt4cEh4/kuVY6GOAPxLs=
+github.com/qiniu/dyn v1.3.0 h1:s+xPTeV0H8yikgM4ZMBc7Rrefam8UNI3asBlkaOQg5o=
+github.com/qiniu/dyn v1.3.0/go.mod h1:E8oERcm8TtwJiZvkQPbcAh0RL8jO1G0VXJMW3FAWdkk=
+github.com/qiniu/x v1.10.5 h1:7V/CYWEmo9axJULvrJN6sMYh2FdY+esN5h8jwDkA4b0=
+github.com/qiniu/x v1.10.5/go.mod h1:03Ni9tj+N2h2aKnAz+6N0Xfl8FwMEDRC2PAlxekASDs=
 gopkg.in/mgo.v2 v2.0.0-20190816093944-a6b53ec6cb22 h1:VpOs+IwYnYBaFnrNAeB8UUWtL3vEUnzSCL1nVjPhqrw=
 gopkg.in/mgo.v2 v2.0.0-20190816093944-a6b53ec6cb22/go.mod h1:yeKp02qBN3iKW1OzL3MGk2IdtZzaj7SFntXj72NppTA=
