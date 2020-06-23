@@ -1,7 +1,12 @@
 httptest
 =============
 
-[![Build Status](https://travis-ci.org/qiniu/httptest.svg?branch=master)](https://travis-ci.org/qiniu/httptest) [![GoDoc](https://godoc.org/github.com/qiniu/httptest?status.svg)](https://godoc.org/github.com/qiniu/httptest) [![Go Report Card](https://goreportcard.com/badge/github.com/qiniu/httptest)](https://goreportcard.com/report/github.com/qiniu/httptest)
+[![LICENSE](https://img.shields.io/github/license/qiniu/httptest.svg)](https://github.com/qiniu/httptest/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/qiniu/httptest.svg?branch=master)](https://travis-ci.org/qiniu/httptest)
+[![Go Report Card](https://goreportcard.com/badge/github.com/qiniu/httptest)](https://goreportcard.com/report/github.com/qiniu/httptest)
+[![GitHub release](https://img.shields.io/github/v/tag/qiniu/httptest.svg?label=release)](https://github.com/qiniu/httptest/releases)
+[![Coverage Status](https://codecov.io/gh/qiniu/httptest/branch/master/graph/badge.svg)](https://codecov.io/gh/qiniu/httptest)
+[![GoDoc](https://img.shields.io/badge/Godoc-reference-blue.svg)](https://godoc.org/github.com/qiniu/httptest)
 
 [![Qiniu Logo](http://open.qiniudn.com/logo.png)](http://www.qiniu.com/)
 
